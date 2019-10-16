@@ -1,0 +1,152 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 16-10-2019, 20:15:50
+    Author     : dattv
+*/
+
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    background: url("../img/img04.jpg");
+}
+
+.container{
+    width: 800px;
+    margin: 0 auto;
+}
+
+.header{
+
+}
+
+.header .header-title{
+    font-size: 50px;
+    margin-left: 25px;
+    margin-top: 30px;
+}
+
+.header .menu {
+    height: 40px;
+    background: black;
+}
+
+
+.header .menu ul {
+    list-style-type: none;
+    line-height: 40px;
+    padding: 0 10px;
+}
+
+.header .menu li {
+    color: grey;
+    font-size: 20px;
+    display: inline-block;
+    padding: 0 15px;
+}
+
+.header .menu li:hover {
+    color: white;
+    background: url("../img/img02.jpg") no-repeat center bottom; 
+}
+
+.content{
+    margin-top: 35px;
+
+}
+
+.block1{
+    float: left;
+    width: 75%;
+}
+
+.block1 .entry{
+    margin-left: 25px;
+    margin-top: 25px;
+
+}
+
+.block1 .content-header{
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+
+
+.block1 .post{
+    color: gray;
+    font-style: italic;
+    margin-top: 8px;
+}
+
+.block1 .post-image{
+    float: left;
+    width:28%;
+
+}
+
+
+.block1 .post-content{
+    margin-top: 35px;
+}
+.block1 .post-text{
+    margin-bottom: 50px;
+    margin-right:35px;
+}
+.block1 .link-full{
+    text-decoration: none;
+    color: black;
+    font-style: italic;
+}
+
+.block1 .link-category{
+    color: green;
+    font-style: italic;
+}
+
+
+.block2{
+    width: 25%;
+    float: left;
+
+}
+
+.block2 .category-header{
+    font-size: 25px;
+}
+
+/*.block2 .category{
+    width: 90%;
+}*/
+
+.block2  ul{
+    list-style-type: none;
+    padding-left: 20px;
+    margin-top: 5px;
+    padding-left: 5px;
+}
+
+.block2 li{
+    margin-bottom: 15px;
+
+}
+
+.block2  li a {
+    text-decoration: none;
+    color: black;
+}
+
+.block2 li img{
+    margin-right: 10px;
+}
+
+.clear{
+    clear: both;
+}
+
+.footer{
+    border-top: solid lightgray 1px;
+}
