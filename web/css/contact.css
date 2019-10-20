@@ -1,0 +1,64 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 6, 2017, 9:31:58 AM
+    Author     : Toet
+*/
+
+.contact {
+    width: 70%;
+    float: left;
+    border-right: dashed lightgrey 1px;
+    margin-right: 20px;
+    padding-right: 20px;
+}
+
+fieldset {
+    border: 1px grey dashed;
+    width: 70%;
+    padding-right: 30px;
+}
+
+legend {
+    background: #9b1d1f;
+    color: white;
+    font-weight: bold;
+    margin-left: 5px; 
+    padding: 5px 8px;
+}
+
+table {
+    width: 100%;
+}
+
+table td {
+    padding: 5px;
+}
+input, textarea {
+    width: 100%;
+    padding: 2px;
+    border-width: 2px;
+}
+
+.field {
+    text-align: right;
+    font-weight: bold;
+}
+
+input[type="submit"] {
+    width: 53px;
+    height: 24px;
+    background: url("../img/contact_bt.gif");
+    border: 0px;
+    float: right;
+    margin-right: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+td p {
+    margin: 0px;
+}
